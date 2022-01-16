@@ -5,5 +5,6 @@ a=input("İsminiz:")
 b=int(input("İsminiz Kaç Kere Yazılsın:"))
 for i in range(b):
     dosya.write(a+ "\n")
+dosya.close()
 
 
